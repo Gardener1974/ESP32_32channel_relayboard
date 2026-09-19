@@ -1,0 +1,16 @@
+{
+  "name": "ModbusMasterRS485",
+  "version": "1.0.0",
+  "description": "Felhasznalo-barat Modbus RTU (RS485) master modul. Kepes egy kulsos, 16 csatornas, funkcio 06 -os vezetett reles kartyat vezerelni (Open/Close/Toggle/Latch/Momentary/Delay, osszes BE/KI). Platform-es hardver-semleges , ujrahasznosithato mas projektekben is.",
+  "keywords": "modbus, rtu, rs485, master, relay, kincony",
+  "authors": [
+    { "name": "GardenHub Ultimate", "email": "dev@gardenhub.local" }
+  ],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": ["espressif32", "espressif8266", "ststm32", "*"],
+  "build": {
+    "srcDir": "src",
+    "libArchive": false
+  }
+}
