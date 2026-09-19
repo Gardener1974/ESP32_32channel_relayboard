@@ -1,0 +1,4 @@
+# Include mappa
+
+Projekt-szintű fejlécek helye. Az újrahasznosítható modulok a lib/ alá kerülnek
+(saját library.json + README.md), ide csak az app-specifikus fejlécek tartoznak.
