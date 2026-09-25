@@ -1,0 +1,11 @@
+{
+  "name": "EspNowSchedule",
+  "version": "0.1.0",
+  "description": "Buta ESP-NOW fogado 32-csatornas relekartyahoz. Router nelkul, csak radio + fogadas. Egyszeru parancs: rele X mp-re BE, majd KI. A rele-kiirast callback adja at.",
+  "keywords": "esp-now, espnow, receiver, relay, esp32",
+  "authors": [ { "name": "ESP32 32channel relayboard", "email": "dev@gardenhub.local" } ],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": ["espressif32", "*"],
+  "build": { "srcDir": "src" }
+}
